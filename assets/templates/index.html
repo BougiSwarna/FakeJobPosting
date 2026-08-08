@@ -1,0 +1,73 @@
+{%extends 'base.html'%}
+{%load static%}
+{%block contents%}
+<!-- /.parallax full screen background image -->
+<div class="fullscreen landing parallax banner" style="background-image:url('{%static 'images/bg.jpg'%}');"
+     data-img-width="2000" data-img-height="1325" data-diff="100">
+
+    <div class="overlay">
+        <div class="container">
+            <div class="row">
+
+
+                <div class="col-md-6">
+
+                    <!-- /.main title -->
+                    <h1 class="wow fadeInLeft">
+                        Common types of Job Scam
+                    </h1>
+
+                    <!-- /.header paragraph -->
+                    <div class="landing-text wow fadeInLeft">
+                        <p>
+                            Fraudsters who want to gain other people’s personal information like insurance details, bank
+                            details, income tax details, date of birth, national id create fake job advertisements.
+                            Advance fee scams occur when frauds ask for money showing reasons like admin charges,
+                            information security checking cost, management cost etc. Sometimes fraudsters act them-
+                            selves as employers and ask people about passport details, bank statements, driving license
+                            etc. as pre-employment check. Illegal money mulling scams occur when they convince students
+                            to pay money into their accounts and then transfer it back.
+
+                        </p>
+                    </div>
+
+                </div>
+
+                <!-- /.phone image -->
+                <div class="col-md-6">
+                    <img src="{%static 'images/header-phone.png'%}" alt="phone"
+                         class="header-phone img-responsive wow fadeInRight">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- /.feature section -->
+<div id="feature">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1 col-sm-12 text-center feature-title">
+
+                <!-- /.feature title -->
+                <h2>Related Works</h2>
+                <p>
+                    Many researches occurred to predict if a job post is real or
+                    fake. A good number of research works are to check online
+                    fraud job advertiser. Vidros [1] et al. identified job scammers
+                    as fake online job advertiser. They found statistics about many
+                    real and renowned companies and enterprises who produced
+                    fake job advertisements or vacancy posts with ill-motive. They
+                    experimented on EMSCAD dataset using several classification
+                    algorithms like naive bayes classifier, random forest classifier,Zero R, One R etc. Random Forest
+                    Classifier showed the
+                    best performance on the dataset with 89.5% classification
+                    accuracy
+                </p>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+{%endblock%}
